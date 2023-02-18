@@ -27,7 +27,7 @@ public class JdbcUtil {
 	// creating a connection through Hikaricp jar
 	public static Connection getJdbcConnection() throws SQLException {
 		HikariConfig config = new HikariConfig(
-				"C:\\Users\\003XPG744\\eclipse-workspace\\CRUDApp\\src\\com\\properties\\application.properties");
+				"C:\Users\003XPG744\eclipse-workspace\FEtoBEJdbcCrudApp\src\com\properties\application.properties");
 		HikariDataSource dataSource = new HikariDataSource(config);
 
 		return dataSource.getConnection();
